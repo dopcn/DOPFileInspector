@@ -13,6 +13,7 @@
 		87CB26971FBF28920017A6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CB26961FBF28920017A6E8 /* Assets.xcassets */; };
 		87CB269A1FBF28920017A6E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CB26981FBF28920017A6E8 /* LaunchScreen.storyboard */; };
 		87CB26A51FBF28920017A6E8 /* DOPFileInspectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CB26A41FBF28920017A6E8 /* DOPFileInspectorTests.swift */; };
+		87CB26B41FBF2BAB0017A6E8 /* DOPFileInspectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CB26B31FBF2BAB0017A6E8 /* DOPFileInspectorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		87CB26A01FBF28920017A6E8 /* DOPFileInspectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOPFileInspectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CB26A41FBF28920017A6E8 /* DOPFileInspectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOPFileInspectorTests.swift; sourceTree = "<group>"; };
 		87CB26A61FBF28920017A6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CB26B31FBF2BAB0017A6E8 /* DOPFileInspectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOPFileInspectorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		87CB268E1FBF28920017A6E8 /* DOPFileInspector */ = {
 			isa = PBXGroup;
 			children = (
+				87CB26B31FBF2BAB0017A6E8 /* DOPFileInspectorController.swift */,
 				87CB268F1FBF28920017A6E8 /* AppDelegate.swift */,
 				87CB26911FBF28920017A6E8 /* ViewController.swift */,
 				87CB26931FBF28920017A6E8 /* Main.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				87CB26921FBF28920017A6E8 /* ViewController.swift in Sources */,
 				87CB26901FBF28920017A6E8 /* AppDelegate.swift in Sources */,
+				87CB26B41FBF2BAB0017A6E8 /* DOPFileInspectorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
